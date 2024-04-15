@@ -1,69 +1,108 @@
-body {
-  background-color: wihte;
+
+html{
+  font-family: consolas;
+
 }
 
 h1 {
-  color: maroon;
+  padding-top: 14px;
+  color: #ffffff;
   margin-left: 20px;
-  font-family: consolas;
   font-weight: 900;
 }
 
+.anabaslik-h1{
+  box-shadow: 0 0 10px #000000;
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #b80025;
+  border: 1px solid #8d1313;
+}
+
 h2 {
-  color: rgb(163, 18, 18);
-  margin-left: 30px;
-  font-family: consolas;
-  font-weight: 700;
+  padding-top: 14px;
+  color: #000000;
+  margin-left: 20px;
+  font-weight: 900;
 }
 
 h3 {
-  color: green;
+  color: #FF204E;
   margin-left: 10px;
-  font-family: consolas;
-  text-decoration: underline;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 p {
   color: black;
   margin-left: 20px;
-  font-family: consolas;
 }
 
+.filmbaslik{
+  color: #17407e;
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.filmbaslik:hover{
+  color: rgb(160, 7, 7);
+}
 .abc {
-  color: rgb(163, 18, 18);
-  font-weight: 700;
+  box-shadow: 0 0 10px #000000;
+  font-size: 18px;
+  color: #000000 ;
   margin-left: 10px;
-  padding-right: 5%;
-  font-family: consolas;
+  padding-right: 10%;
   box-sizing: border-box;
   border-radius: 5px;
-  border: 2px solid #333;
+  border: 1px solid #333;
   display: block;
 }
 
-.picturetext{
-  width: 80%;
-  display: inline-block;
+.filmaciklama{
+  font-size: 14px;
+  font-weight: normal;
+
 }
-.picture{
-  height: 300px;
+.picturetext{
+  max-width:80%;
+  min-width: 20%;
+  display: inline-block;
+
+}
+.picture{ 
+  max-height: 300px;
+  max-width: 19%;
   display: inline-block;
 }
 .resim{
+  box-shadow: 0 0 5px #000000;
   border-radius: 5px;
-  height: 300px;
+  max-height: 300px;
+  max-width: 194px;
   display: inline-block;
 }
+
+.filmarasi{
+ height: 2px;
+ background-color: black;
+}
+
+.oyunculiste{
+  color: #A0153E;
+  font-weight: 900;
+  font-size: 14px;
+}
+
 .oyuncular{
   color: rgb(0, 0, 0);
   text-decoration:none;
+  font-weight:normal;
+  font-size: 14px;
 }
 
 .oyuncular:hover{
     color: red;
-
-}
-.filmarasi{
- height: 2px;
- background-color: black;
 }
