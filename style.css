@@ -78,6 +78,7 @@ p {
   display: inline-block;
 }
 .resim{
+  float:left;
   box-shadow: 0 0 5px #000000;
   border-radius: 5px;
   max-height: 300px;
